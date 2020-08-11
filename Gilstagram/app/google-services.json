@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "772720646522",
+    "firebase_url": "https://gilstagram-f55ed.firebaseio.com",
+    "project_id": "gilstagram-f55ed",
+    "storage_bucket": "gilstagram-f55ed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:772720646522:android:d534c5313b21e243525ec3",
+        "android_client_info": {
+          "package_name": "com.example.gilstagram"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "772720646522-jlhjt8ori6ujdgmkrqq72bj2u1c1bo54.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcTCby0140kbS9UYvLMJy7o5zWHEJa-Y0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "772720646522-jlhjt8ori6ujdgmkrqq72bj2u1c1bo54.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -48,6 +48,10 @@ class LoginActivity : AppCompatActivity() {
         startActivityForResult(signInIntent,GOOGLE_LOGIN_CODE)
     }
 
+    override fun onStart() {
+        super.onStart()
+        //moveMainPage(auth?.currentUser)
+    }
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         super.onActivityResult(requestCode, resultCode, data)
         if (requestCode == GOOGLE_LOGIN_CODE) {
@@ -121,5 +125,6 @@ class LoginActivity : AppCompatActivity() {
             Log.d(TAG,"[moveMainPage] Move to MainActivity")
             startActivity(Intent(this,MainActivity::class.java))
         }
+        finish()
     }
 }
